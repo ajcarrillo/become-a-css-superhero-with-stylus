@@ -1,0 +1,18 @@
+- var GoogleFonts = 'Open+Sans:400,800,700,300,600|Chivo:400,900|Passion+One:400,700,900'
+
+- var jQuery = false
+
+doctype html
+html( lang="en" )
+	head
+		title
+			block title
+		meta( charset='utf-8' )
+		meta( http-equiv='X-UA-Compatible', content='IE=edge' )
+		meta( name='viewport', content='width=device-width, initial-scale=1.0' )
+		link( href='css/example.css', rel='stylesheet', type='text/css' )
+		if GoogleFonts
+			link( href='//fonts.googleapis.com/css?family=' + GoogleFonts, rel='stylesheet', type='text/css' )
+		if jQuery
+			script( src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' )
+	block body

@@ -1,0 +1,253 @@
+{
+  "id": "55665bc9",
+  "cfgVersion": 1,
+  "name": "ColorScheme",
+  "files": {
+    "adefe456": {
+      "id": "adefe456",
+      "pid": "55665bc9",
+      "name": "example.styl",
+      "input": "stylus/example.styl",
+      "customOutput": false,
+      "type": "Stylus",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "nib": true,
+        "compress": false,
+        "autoprefixer": false
+      }
+    },
+    "0d1f4deb": {
+      "id": "0d1f4deb",
+      "pid": "55665bc9",
+      "name": "index.jade",
+      "input": "jade/index.jade",
+      "customOutput": "index.html",
+      "type": "Jade",
+      "config": {
+        "autoCompile": true,
+        "pretty": true
+      }
+    },
+    "b81120f7": {
+      "id": "b81120f7",
+      "pid": "55665bc9",
+      "name": "extras.styl",
+      "input": "stylus/fontawesome/extras.styl",
+      "customOutput": false,
+      "type": "Stylus",
+      "config": {
+        "autoCompile": false,
+        "lineNumbers": false,
+        "nib": false,
+        "compress": false,
+        "autoprefixer": false
+      }
+    }
+  },
+  "imports": {
+    "79b3a3d0": {
+      "id": "79b3a3d0",
+      "pid": "55665bc9",
+      "path": "jade/wrapper.jade",
+      "parents": [
+        "0d1f4deb"
+      ]
+    },
+    "e6541730": {
+      "id": "e6541730",
+      "pid": "55665bc9",
+      "path": "stylus/_colorscheme.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "8c086f7d": {
+      "id": "8c086f7d",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/index.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "a3806fec": {
+      "id": "a3806fec",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/font-awesome.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "d44eab51": {
+      "id": "d44eab51",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/variables.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "ae53bc57": {
+      "id": "ae53bc57",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/mixins.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "9d6314d2": {
+      "id": "9d6314d2",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/path.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "5bfd8f76": {
+      "id": "5bfd8f76",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/core.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "7396b6bf": {
+      "id": "7396b6bf",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/larger.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "732d20f3": {
+      "id": "732d20f3",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/fixed-width.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "2ee8cf7b": {
+      "id": "2ee8cf7b",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/list.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "866369ad": {
+      "id": "866369ad",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/bordered-pulled.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "a538727e": {
+      "id": "a538727e",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/spinning.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "70b34374": {
+      "id": "70b34374",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/rotated-flipped.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "964da240": {
+      "id": "964da240",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/stacked.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "457ea8d4": {
+      "id": "457ea8d4",
+      "pid": "55665bc9",
+      "path": "stylus/fontawesome/icons.styl",
+      "parents": [
+        "adefe456"
+      ]
+    },
+    "f827309a": {
+      "id": "f827309a",
+      "pid": "55665bc9",
+      "path": "stylus/_layout.styl",
+      "parents": [
+        "adefe456"
+      ]
+    }
+  },
+  "images": {
+    "3573fa9a": {
+      "id": "3573fa9a",
+      "pid": "55665bc9",
+      "path": "images/camera.jpg",
+      "size": 75509,
+      "name": "camera.jpg",
+      "type": "Jpg",
+      "initialSize": 75509,
+      "status": "NOT_OPTIMIZED"
+    },
+    "131e6303": {
+      "id": "131e6303",
+      "pid": "55665bc9",
+      "path": "images/thumbone.jpg",
+      "size": 43942,
+      "name": "thumbone.jpg",
+      "type": "Jpg",
+      "initialSize": 43942,
+      "status": "NOT_OPTIMIZED"
+    },
+    "26f1c738": {
+      "id": "26f1c738",
+      "pid": "55665bc9",
+      "path": "images/thumbtwo.jpg",
+      "size": 59753,
+      "name": "thumbtwo.jpg",
+      "type": "Jpg",
+      "initialSize": 59753,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpSecure": false,
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}

@@ -1,0 +1,46 @@
+extends wrapper
+
+block title
+	| How REMs Work Demo
+
+block content
+	.rem_demo
+		p The "root" document font-size is 16px
+		.row
+			.onesixtypx
+				h3 160px square
+				p Fixed size
+			.tenrems
+				h3 10rem square
+				p 
+					| 10 x root font size
+					br
+					| = 160px by default
+					| (10rem x 16px)
+			.tenems
+				h3 10em square
+				p 
+					| 10 x this square's font size so not reliably 160px
+		.divider
+		p The most common default font size is <strong>16px</strong>
+		p 10rem is ten times the 16px root font-size, giving 160px:
+		code 10rem x 16px = 160px
+		p So to figure out the rem equivalent to 160px do the calculation in reverse:
+		code 160px / 16px = 10rem
+		p 
+			| To get the rem equivalent for any px value just 
+			br 
+			| divide it by the root font size for example:
+		code 32px / 16px = 2rem
+		br
+		code 50px / 16px = 3.125rem
+		br
+		code 1px / 16px = 0.0625rem
+		p
+			&nbsp;
+		p
+			&nbsp;
+		p
+			&nbsp;
+		p
+			&nbsp;

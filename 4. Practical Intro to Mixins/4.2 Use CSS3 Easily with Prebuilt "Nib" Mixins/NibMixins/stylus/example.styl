@@ -1,0 +1,29 @@
+// Import nib so the stylesheet can use it:
+@import nib
+
+
+$base_font_size = 16
+$px = ( 1 / $base_font_size ) rem
+
+*
+	box-sizing border-box
+
+body
+	text-align center
+
+.button
+	font-family "Passion One"
+	font-size 42*$px
+	margin 200*$px auto
+	display inline-block
+	color #fff
+	background-color #b50000
+	font-size 3.5em
+	font-weight 700
+	padding 0.25em 0.85em
+	border 6*$px solid rgb(214, 0, 0)
+
+.css3me
+	border-radius 18*$px
+	background linear-gradient(top, #f00 0%, #c30000 50%, #af0000 51%, #be0000, #b50000 100%)
+	box-shadow rgba(0, 0, 0, 0.65) 0 2*$px 9*$px 0, rgba(0, 0, 0, 0.28) 0 6*$px 20*$px 0px, rgba(0, 0, 0, 0.40) 0 0 3*$px 0 inset, rgba(255, 0, 0, 0.56) 0 0 14*$px 0 inset

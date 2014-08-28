@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  font-family: "Open Sans";
+  background-color: #e4e4e4;
+}
+.rem_demo {
+  padding: 1rem;
+  background-color: #fff;
+  text-align: center;
+  max-width: 625px;
+  margin: 0 auto;
+}
+.row {
+  padding: 1rem 0 2rem 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  color: #fff;
+}
+.divider {
+  border-bottom: 0.25rem solid #ccc;
+  margin-bottom: 2rem;
+}
+.onesixtypx {
+  width: 160px;
+  height: 160px;
+  background-color: #31373e;
+}
+.tenrems {
+  font-size: 1.2em;
+  width: 10rem;
+  height: 10rem;
+  background-color: #9bb329;
+}
+.tenems {
+  font-size: 1.2em;
+  width: 10em;
+  height: 10em;
+  background-color: #bf3030;
+}
+.wrapper {
+  width: 100%;
+  background-color: #fff;
+  border-color: #d3d3d3;
+  border-style: solid;
+}
+.left {
+  float: left;
+  width: 60%;
+}
+.right {
+  float: right;
+  width: 38%;
+}
+.px {
+  max-width: 565px;
+  margin: 25px auto;
+  zoom: 1;
+}
+.px:before,
+.px:after {
+  content: "";
+  display: table;
+}
+.px:after {
+  clear: both;
+}
+.px .wrapper {
+  padding: 25px;
+  border-width: 1px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.rem {
+  max-width: 35.3125rem;
+  margin: 1.5625rem auto;
+  zoom: 1;
+}
+.rem:before,
+.rem:after {
+  content: "";
+  display: table;
+}
+.rem:after {
+  clear: both;
+}
+.rem .wrapper {
+  padding: 1.5625rem;
+  border-width: 0.0625rem;
+  -webkit-border-radius: 0.9375rem;
+  border-radius: 0.9375rem;
+}

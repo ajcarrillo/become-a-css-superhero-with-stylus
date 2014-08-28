@@ -1,0 +1,105 @@
+{
+  "id": "50315680",
+  "cfgVersion": 1,
+  "name": "PXtoREMorEM",
+  "files": {
+    "255ec1d2": {
+      "id": "255ec1d2",
+      "pid": "50315680",
+      "name": "3dtext.jade",
+      "input": "jade/3dtext.jade",
+      "customOutput": false,
+      "type": "Jade",
+      "config": {
+        "autoCompile": true,
+        "pretty": true
+      }
+    },
+    "0d1f4deb": {
+      "id": "0d1f4deb",
+      "pid": "50315680",
+      "name": "index.jade",
+      "input": "jade/index.jade",
+      "customOutput": false,
+      "type": "Jade",
+      "config": {
+        "autoCompile": true,
+        "pretty": true
+      }
+    },
+    "6b9d10e6": {
+      "id": "6b9d10e6",
+      "pid": "50315680",
+      "name": "letterpress.jade",
+      "input": "jade/letterpress.jade",
+      "customOutput": false,
+      "type": "Jade",
+      "config": {
+        "autoCompile": true,
+        "pretty": true
+      }
+    },
+    "adefe456": {
+      "id": "adefe456",
+      "pid": "50315680",
+      "name": "example.styl",
+      "input": "stylus/example.styl",
+      "customOutput": false,
+      "type": "Stylus",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "nib": true,
+        "compress": false,
+        "autoprefixer": false
+      }
+    }
+  },
+  "imports": {
+    "79b3a3d0": {
+      "id": "79b3a3d0",
+      "pid": "50315680",
+      "path": "jade/wrapper.jade",
+      "parents": [
+        "6b9d10e6",
+        "255ec1d2",
+        "0d1f4deb"
+      ]
+    }
+  },
+  "images": {},
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpSecure": false,
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}
